@@ -1,0 +1,32 @@
+# Blog Application
+
+A simple Blog Application with admin functionalities, including the ability to create, edit, and delete posts. 
+This application uses a WYSIWYG editor to allow rich content in the posts and AJAX for handling CRUD operations.
+
+
+Laravel version:10.x
+Laravel 10.x requires a minimum PHP version of 8.1.
+
+- **Admin Login**: Admin can log in to the application using pre-seeded credentials.
+php artisan db:seed
+Email: admin@admin.com
+Password: password
+
+- **Migrate the database:
+php artisan migrate
+
+- **Admin Login can:
+
+View posts: A list of all posts with actions to edit or delete them.
+Create posts: Using the WYSIWYG editor to create rich content posts.
+Edit posts: Modify existing posts.
+Delete posts: Remove posts from the system.
+
+- **Post Creation Fields
+When creating a post, the admin can enter:
+
+Name: The title of the post.
+Date: The publish date of the post.
+Author: The name of the post's author.
+Content: Rich-text content created using the WYSIWYG editor.
+Image: An optional cover image for the post.
