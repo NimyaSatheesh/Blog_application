@@ -81,7 +81,7 @@
                     </div>
                        <!-- Cancel Button -->
                     <div class="button">
-                        <a href="{{ route('admin.posts.view') }}" class="btn btn-secondary">Cancel</a>
+                        <a href="{{ route('admin.posts.index') }}" class="btn btn-secondary">Cancel</a>
                     </div>
                 </form>
             </div>
